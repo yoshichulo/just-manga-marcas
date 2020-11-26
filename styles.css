@@ -5,7 +5,7 @@ body {
 
 footer {
     background-color: rgba(24, 12, 31, 0.93);
-    font-size: 18px;
+    font-size: 16px;
     color: white;;
 }
 
@@ -81,6 +81,38 @@ footer a:hover {
     max-width: 280px;
 }
 
+.panel-description {
+    width: 80%;
+    max-width: 1300px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 15px;
+}
+
+.panel-description h1 {
+    font-size: 45px;
+    font-weight: bold;
+    background: none;
+    padding-bottom: 12px;
+}
+
+.panel-description img {
+    width: 100%;
+    border-radius: 15px;
+    max-width: 700px;
+    border: 1px solid white;
+}
+
+.panel-description ul {
+    list-style: none;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.panel-description-icons {
+    font-size: 22px !important;
+    padding-right: 8px;
+}
+
 .manga-table {
     width: 80%;
     max-width: 1300px;
@@ -112,6 +144,7 @@ footer a:hover {
 .manga-table td:nth-child(2) {
     min-width: 180px;
 }
+
 .manga-table td:nth-child(2), td:nth-child(4){
     text-align: center;
 }
