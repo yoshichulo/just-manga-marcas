@@ -30,6 +30,47 @@
         <a href="registro.html">Registro</a>
     </nav>
     <!-- Content -->
+    <div class="news-container py-4">
+        <div class="panel-description mx-auto">
+            <h1>Registro</h1>
+            <form class="register-form mx-auto" onsubmit="alert('Registrado')">
+                <h3>Datos de acceso</h2>
+                <div class="form-group">
+                  <label for="usernameInput">Nombre de usuario</label>
+                  <input type="text" class="form-control" id="usernameInput" placeholder="Usuario" required>
+                </div>
+                <div class="form-group">
+                  <label for="passwordInput">Contraseña</label>
+                  <input type="password" class="form-control" id="passwordInput" placeholder="Contraseña" required>
+                </div>
+
+                <h3 class="pt-4">Información personal</h2>
+                <div class="form-group">
+                  <label for="nameInput">Nombre</label>
+                  <input type="text" class="form-control" id="nameInput" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                  <label for="surnameInput">Apellidos</label>
+                  <input type="text" class="form-control" id="surnameInput" placeholder="Apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="birthdayInput">Fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="birthdayInput">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Correo electrónico</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Correo electrónico">
+                </div>
+
+
+                <div class="form-check mt-5">
+                  <input type="checkbox" class="form-check-input" id="termsAccept" required>
+                  <label class="form-check-label" for="termsAccept">Acepto los <a href="#">Términos y Condiciones de uso</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Registrarme</button>
+            </form>
+        </div>
+    </div>
 
     <!-- End Content -->
     <footer class="footer-info">

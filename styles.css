@@ -63,6 +63,11 @@ footer a:hover {
     font-weight: bold;
 }
 
+.news-container h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .new {
     padding: 35px;
     background-color: #330b33;
@@ -149,6 +154,14 @@ footer a:hover {
 
 .manga-table td:nth-child(2), td:nth-child(4){
     text-align: center;
+}
+
+.register-form {
+    font-size: 20px;
+}
+
+.register-form input {
+    max-width: 380px;
 }
 
 .footer-info h1 {
