@@ -1,8 +1,3 @@
-body {
-    background-image: url('assets/img/background.jpg');
-    background-size: cover;
-}
-
 footer {
     background-color: rgba(24, 12, 31, 0.93);
     font-size: 16px;
@@ -14,6 +9,16 @@ footer a:hover {
     color: #ff94f7;
     text-shadow: 0px 0px 10px #ff94f7;
     transition-duration: .3s;
+}
+
+.background-top {
+    background-image: url('assets/img/background-top.jpg');
+    background-size: cover;
+}
+
+.background-bottom {
+    background-image: url('assets/img/background-bottom.jpg');
+    background-size: cover;
 }
 
 .logo {
@@ -46,20 +51,18 @@ footer a:hover {
 }
 
 .news-container {
-    background-image: url('assets/img/book-gif.gif');
-    background-size: cover;
-    font-size: 25px;
+    background-color: #110713;
+    font-size: 1.5em;
     color: white;
 }
 
 .news-container h1 {
-    font-size: 45px;
+    font-size: 1.5em;
     font-weight: bold;
-    background: rgb(0 0 0 / 80%);
 }
 
 .news-container h2 {
-    font-size: 40px;
+    font-size: 1.7em;
     font-weight: bold;
 }
 
@@ -164,6 +167,9 @@ footer a:hover {
     max-width: 380px;
 }
 
+.footer-info {
+    background-color: #281d2fbb;
+}
 .footer-info h1 {
     font-size: 20px;
     font-weight: bold;
