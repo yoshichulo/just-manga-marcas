@@ -64,7 +64,7 @@ footer a:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     .menu{
         height: auto;
         border-bottom: 0px;
@@ -138,6 +138,9 @@ footer a:hover {
     margin-right: auto;
     padding-top: 1em;
     padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .last-volumes img {
